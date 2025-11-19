@@ -1,0 +1,21 @@
+# 🕊️ Ritualized documentation and onboarding guides
+docs/** linguist-documentation=true
+
+# 🌿 Branded templates and sacred flows (exclude from language stats)
+assets/templates/** linguist-generated=true
+
+# 🔐 Configuration and setup files (not counted in language breakdown)
+config/** linguist-generated=true
+
+# ✨ Emblematic visuals and identity assets
+branding/** linguist-vendored=true
+
+# 📜 README and sacred manifest treated as documentation
+README.md linguist-documentation=true
+
+# 🧬 Ritual scripts and onboarding logic
+scripts/** linguist-language=JavaScript
+flows/** linguist-language=Python
+
+# 🧘 Exclude emotional resonance files from stats
+sanctuary/** linguist-generated=true
